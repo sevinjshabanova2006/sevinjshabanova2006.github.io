@@ -1,0 +1,377 @@
+.div-img {
+    background-color: #323232;
+}
+.about {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 15%;
+}
+.price {
+    background-color: #004274;
+    margin-right: 20%;
+    height: 90px;
+    width: 20%;
+    color: #fff;
+    font-size: 29px;
+    text-align: center;
+    font-weight: bold;
+    vertical-align: middle;
+    display: flex;
+}
+
+.price-2 h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.price-2 div {
+    display: flex;
+}
+
+.price-2 {
+    margin-left: -18%;
+}
+
+.p1 {
+    margin-top: 35px;
+    margin-left: 68px;
+    font-size: 30px;
+}
+
+.p2 {
+    margin-top: 35px;
+    opacity: 0.8;
+    font-size: 22px;
+    margin-left: 8px;
+}
+
+#btn1 {
+    display: flex;
+    background-color: #fff;
+    border: 2px solid #004274;
+    border-radius: 5px;
+}
+
+#btn1 h4 {
+    text-decoration: underline;
+    font-size: 20px;
+    margin-top: 2px;
+    margin-left: 8px;
+    color: #323232;
+}
+
+#btn1 i {
+    color: #004274;
+    font-size: 25px;
+    margin-top: 3px;
+}
+
+#btn2 {
+    display: flex;
+    background-color: #004274;
+    border: 2px solid #004274;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+
+#btn2 h4 {
+    text-decoration: underline;
+    font-size: 20px;
+    margin-top: 2px;
+    margin-left: 8px;
+    color: #fff;
+}
+
+#btn2 i {
+    color: #fff;
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+#btn3 {
+    display: flex;
+    background-color: #fff;
+    border: 2px solid #004274;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+
+#btn3 h4 {
+    text-decoration: underline;
+    font-size: 20px;
+    margin-top: 2px;
+    margin-left: 8px;
+    color: #323232;
+}
+
+#btn3 i {
+    color: #004274;
+    font-size: 25px;
+    margin-top: 3px;
+}
+
+.main {
+    margin-top: 40px;
+}
+
+.hisse1-1 {
+    background-color: #f2f2f2;
+    opacity: 1;
+    width: 225px;
+    height: 130px;
+}
+
+.hisse1-p1 {
+    padding-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+
+.fa-phone {
+    color: #004274;
+    font-size: 30px;
+    margin-left: 170px;
+    margin-top: -80px;
+    position: absolute;
+}
+
+.hisse1-0 {
+    position: relative;
+}
+
+.hisse1-0 h5 {
+    font-size: 16px;
+    color: black;
+    margin-top: 20px;
+}
+
+.hisse1-p2 {
+    text-decoration: underline;
+    color: rgb(114, 111, 111);
+    margin-top: 20px;
+}
+
+.hisse1-p1,
+.hisse1-p2,
+.hisse1-1 h5 {
+    margin-left: 25px;
+}
+
+.hisse1-3 p {
+    display: block;
+    margin: 0;
+    color: rgb(114, 111, 111);
+    padding: 3px;
+}
+
+.hisse1-3 {
+    margin-top: 20px;
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+.hisse1-4 {
+    margin-top: 20px;
+}
+
+.hisse1-4 p {
+    display: block;
+    margin: 0;
+    color: rgb(114, 111, 111);
+    text-decoration: underline dotted rgb(78, 76, 76) 2px;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.fa-heart{
+    color: red;
+    margin-right: 3px;
+}
+
+.hisse1 {
+    margin-left: 22%;
+}
+
+.hisse2 {
+    margin-left: -130px;
+}
+
+.td1 {
+    color: #666;
+    font-size: 16px;
+    font-weight: bold;
+    width: 200px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.td2 {
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom: 1px solid #e6e6e6;
+}
+.tr2 td{
+    padding-top: 10px;
+}
+
+.hisse2-1 {
+    margin-top: 40px;
+}
+.hisse2-1 p{
+    padding: 13px;
+    font-size: 15px;
+}
+.hisse2-2{
+    height: 60px;
+    border-radius: 5px 5px 0 0;
+    background-color: #e3e3e3;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.hisse2-2 a p{
+   position: absolute;
+   color: #004274;
+   font-size: 18px;
+   font-weight: 600;
+   padding-top: 18px;
+   padding-left: 20px;
+}
+#slide-img{
+    width: auto;
+    height: 480px;
+    object-fit: contain;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+@import
+ url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+.modal-container , 
+.modal-container2 , 
+.modal-container3{
+    background-color: rgba(0, 0, 0, 0.3);
+    display: block;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    opacity: 0;
+    pointer-events: none;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    transition: opacity 0.3s ease;
+    font-family: 'Poppins' , sans-serif;
+    z-index: 999;
+}
+.modal-1{
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0 ,0 , .1);
+    padding: 30px 50px;
+    margin: 30px 50px;
+    width: 600px;
+    max-width: 100%;
+    text-align: center;
+    display: block !important;
+    position: absolute;
+    height: 95%;
+    overflow-y: scroll;
+    max-height:100%; 
+    margin-top: 50px;
+    margin-bottom:50px;;
+}
+.modal-container.show , 
+.modal-container2.show , 
+.modal-container3.show{
+    pointer-events: auto;
+    opacity: 1;
+}
+
+.modal-header h3{
+    margin-right: auto;
+    margin-left: 10px;
+    font-size: 19px;
+    font-weight: bold;
+}
+#close , 
+#close2 , 
+#close3{
+   font-size: 18px;
+   cursor: pointer;
+}
+.bi-capslock-fill{
+    font-size: 19px;
+    color: rgb(34, 249, 6);
+}
+.fa-gem{
+    font-size: 19px;
+    color: #ff5647;
+}
+.fa-crown{
+    font-size: 19px;
+    color:darkorange;
+}
+.modal-h4{
+    margin-top: 20px;
+    opacity: 0.8;
+    text-align: justify;
+}
+.modal-services label , .modal-payments label{
+    margin-left: 5px;
+    align-items: center;
+    vertical-align: middle;
+    padding: 11px 0;
+    display: flex;
+    font-weight: 600;
+    width: 450px;
+    height: 40px;
+}
+.modal-services tr , .modal-payments tr{
+    border-bottom: 1px solid #dfe1e4;
+    margin-left: 0;
+    display: flex;
+}
+.modal-services input , .modal-payments input{
+    height: 20px;
+    width: 20px;
+}
+.title-1, .title-2{
+    padding: 20px 10px;
+    background-color: #f8fafd;
+    border-bottom: 1px solid #f1f3f7;
+    border-top: 1px solid #f1f3f7;
+    font-size: 14px;
+}
+.title-1 h4 , .title-2 h4{
+    opacity: 0.8;
+}
+.modal-button{
+    border: 1px solid #4b8af9;
+    background-color: #4b8af9;
+    color: #fff;
+    border-radius: 7px;
+    padding: 8px 0;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    line-height: 30px;
+    width: 100%;
+    cursor: pointer;
+}
+.modal-button:hover{
+    background-color: #1877f2;
+}
+.modal-footer p{
+    opacity: 0.5;
+}
+.modal-footer p a{
+    text-decoration: underline;
+}
+.servicetime{
+    text-align: center;
+    margin-left: 90px;
+    margin-bottom: 5px;
+    color: black;
+}
