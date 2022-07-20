@@ -174,19 +174,22 @@
 .hisse1-4 {
     margin-top: 20px;
 }
-
-.hisse1-4 p {
+.hisse1-4-p , .hisse1-5-p {
     display: block;
     margin: 0;
     color: rgb(114, 111, 111);
     text-decoration: underline dotted rgb(78, 76, 76) 2px;
-    padding: 5px;
+    padding: 7px;
     font-size: 15px;
 }
-
 .fa-heart{
     color: red;
     margin-right: 3px;
+}
+.bi-currency-dollar{
+    color: #000;
+    margin-right: 3px;
+    font-size: 18px;
 }
 
 .hisse1 {
@@ -222,22 +225,6 @@
     padding: 13px;
     font-size: 15px;
 }
-.hisse2-2{
-    height: 60px;
-    border-radius: 5px 5px 0 0;
-    background-color: #e3e3e3;
-    position: relative;
-    margin-top: 10px;
-    margin-bottom: 20px;
-}
-.hisse2-2 a p{
-   position: absolute;
-   color: #004274;
-   font-size: 18px;
-   font-weight: 600;
-   padding-top: 18px;
-   padding-left: 20px;
-}
 #slide-img{
     width: auto;
     height: 480px;
@@ -250,7 +237,8 @@
  url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 .modal-container , 
 .modal-container2 , 
-.modal-container3{
+.modal-container3 ,
+.modal-container4{
     background-color: rgba(0, 0, 0, 0.3);
     display: block;
     align-items: center;
@@ -281,11 +269,29 @@
     overflow-y: scroll;
     max-height:100%; 
     margin-top: 50px;
-    margin-bottom:50px;;
+    margin-bottom:50px;
+}
+.modal-2{
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0 ,0 , .1);
+    padding: 30px 50px;
+    margin: 10px 350px;
+    width: 600px;
+    max-width: 100%;
+    text-align: center;
+    display: block !important;
+    position: absolute;
+    height: 95%;
+    overflow-y: scroll;
+    max-height:100%; 
+    margin-top: 20px;
+    margin-bottom:50px;
 }
 .modal-container.show , 
 .modal-container2.show , 
-.modal-container3.show{
+.modal-container3.show ,
+.modal-container4.show{
     pointer-events: auto;
     opacity: 1;
 }
@@ -298,7 +304,8 @@
 }
 #close , 
 #close2 , 
-#close3{
+#close3 ,
+#close4{
    font-size: 18px;
    cursor: pointer;
 }
@@ -374,4 +381,58 @@
     margin-left: 90px;
     margin-bottom: 5px;
     color: black;
+}
+.fa-coins{
+    font-size: 20px;
+    color: gold;
+}
+.modal-body-div{
+    display: flex;
+    background-color: #004274;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    height: 80px;
+    margin-top: 5px;
+}
+.modal-icon1{
+   margin-top: 1px;
+   margin-left: 10px;
+}
+.modal-icon2{
+   margin-top: 4px;
+   margin-left: 85px;
+   border: 1px solid #4b8af9;
+   border-radius: 50%;
+   background-color: #4b8af9;
+   width: 70px;
+   height: 70px;
+   position: relative;
+   cursor: pointer;
+}
+.bi-telephone{
+    font-size: 28px;
+    margin-top: 20px;
+    margin-left: -13px;
+    position: absolute;
+    fill: #fff !important;
+}
+.bi-person-circle{
+   font-size: 75px;
+}
+.modal-body-price{
+   margin-left: 65px;
+   margin-top: 10px;
+}
+.modal-body-price p{
+    opacity: 0.7;
+    font-weight: 200;
+    margin-top: 4px;
+}
+.modal-body-price h4{
+    font-weight: 600;
+    font-size: 19px;
+}
+.modal-body-price h5{
+    margin-top: 4px;
 }

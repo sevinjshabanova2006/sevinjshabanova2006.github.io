@@ -24,31 +24,6 @@ function openSwal(){
     };
 
 
-function Message(){
-      swal({
-          title: "Mesaj yazın.",
-          input: "textarea",
-          inputPlaceholder: "",
-          showCancelButton: true,
-          cancelButtonText: 'Ləğv edin',
-          confirmButtonText: "Təqdim edin",
-          inputValidator: function(value) { // validates your input
-            return new Promise(function(resolve, reject) {
-              if (value != '' && value != null) {
-                // document.getElementById('closeComment').value = value; // assign this to other elements in your form
-                swal("Mesajınız göndərildi.", "Sizin mesajınız: " + value, "success");
-                // call other functions or do an AJAX call or sumbit your form
-              }
-              else {
-                reject('Please enter a valid text');
-              }
-            });
-          }
-        })
-      }
-
-
-
 const open = document.getElementById('btn1');
 const modal_container = document.getElementById('modal_container');
 const close = document.getElementById('close');
@@ -80,4 +55,16 @@ open3.addEventListener('click', () =>{
 });
 close3.addEventListener('click', () =>{
     modal_container3.classList.remove('show');
+});
+
+
+const open4 = document.getElementById('qiymetteklifi');
+const modal_container4 = document.getElementById('modal_container4');
+const close4 = document.getElementById('close4');
+
+open4.addEventListener('click', () =>{
+    modal_container4.classList.add('show');
+});
+close4.addEventListener('click', () =>{
+    modal_container4.classList.remove('show');
 });
