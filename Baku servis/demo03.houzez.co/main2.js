@@ -1,6 +1,7 @@
 function openSwal(){
     swal({
         title: "Qiymət təklif edin.",
+        
         input: "number", 
         inputValue: "0.00",
         inputStep: "0.01",

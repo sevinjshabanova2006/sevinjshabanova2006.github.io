@@ -1,5 +1,6 @@
 .div-img {
     background-color: #323232;
+    margin-top: 5px;
 }
 .about {
     display: flex;
@@ -396,7 +397,7 @@
     margin-top: 5px;
 }
 .modal-icon1{
-   margin-top: 1px;
+   margin-top: 2px;
    margin-left: 10px;
 }
 .modal-icon2{

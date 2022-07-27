@@ -59,17 +59,20 @@
 
 document.getElementById('txt2').addEventListener('click',function(){
   swal({  
-        title: 'Do you want to save the changes?',  
+        title: 'Email ünvanınızı qeyd edin. ',  
         showDenyButton: true,  showCancelButton: true,  
-        confirmButtonText: `Save`,  
-        denyButtonText: `Don't save`,
+        confirmButtonText: `Göndər`,  
+        cancelButtonText: `Ləğv et`,
+        denyButtonText: `Ləğv et`,
+        input: "email"
       })
       .then((result) => {  
-          /* Read more about isConfirmed, isDenied below */  
           if (result.isConfirmed) {    
-              Swal.fire('Saved!', '', 'success')  
-          } else if (result.isDenied) {    
-              Swal.fire('Changes are not saved', '', 'info')  
+              swal('Email ünvanınıza mesaj göndəriləcək.', '', 'success')  
+          }
+           else if (result.isDenied) {    
+              swal('Ləğv edildi.', '', 'info')  
            }
       })
     });
+
